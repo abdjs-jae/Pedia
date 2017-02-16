@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_brezu1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/natravox_slider_bg"
+    tools:context="app.rocketship.pedia.pedia.slides.Natravox8Fragment">
+
+    <TextView
+        android:id="@+id/natravox8_title"
+        android:text="@string/natravox8_title"
+        app:layout_widthPercent="60%"
+        app:layout_heightPercent="15%"
+        app:layout_marginTopPercent="2%"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="45sp"
+        />
+
+    <TextView
+        android:id="@+id/natravox8_subtitle1"
+        android:text="@string/natravox8_subtitle1"
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="7%"
+        android:layout_below="@id/natravox8_title"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/natravox8_text1"
+        android:text="@string/natravox8_text1"
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="20%"
+        android:layout_below="@id/natravox8_subtitle1"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/natravox8_subtitle2"
+        android:text="@string/natravox8_subtitle2"
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="7%"
+        app:layout_marginTopPercent="3%"
+        android:layout_below="@id/natravox8_text1"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/natravox8_text2"
+        android:text="@string/natravox8_text2"
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="20%"
+        android:layout_below="@id/natravox8_subtitle2"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        />
+
+</android.support.percent.PercentRelativeLayout>

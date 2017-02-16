@@ -1,0 +1,537 @@
+<resources>
+    <string name="app_name">Pedia</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="pedia_division">Pedia Division</string>
+    <string name="brezu">Brezu</string>
+    <string name="brezu_video">Brezu (Video)</string>
+    <string name="clarithromycin">Clarithromycin</string>
+    <string name="dibher">Dibencozide Heraclene</string>
+    <string name="dibher1mg">Dibencozide Heraclene 1mg</string>
+    <string name="kidzkit">Kidz Kit</string>
+    <string name="montemax">Montemax</string>
+    <string name="natravox">Natravox</string>
+    <string name="corpvideo">Corporate Video</string>
+
+    // BREZU
+
+    // Slide 1
+
+    <string name="brezu1_title">Longer Duration of Action vs. Salbunation</string>
+        <string name="brezu1_text1">
+            Subjects with the protection of EIA after medication using FEV1 as Parameter \n
+            (n = 26)
+        </string>
+    <string name="brezu1_square1">Inhaled Procaterol</string>
+    <string name="brezu1_square2">Oral Procaterol</string>
+    <string name="brezu1_square3">Inhaled Salbutamol</string>
+        <string name="brezu1_pvalue">
+            <b>P value</b>\n
+            5.0 hr = 0.0000001*\n
+            9.5 hr = 0.00000043*\n
+        </string>
+        <string name="brezu1_text2">
+            Both inhaled and oral procaterol provide a similar degree and duration of protection against EIA (9.5hrs)
+        </string>
+        <string name="brezu1_text3">
+            Chu, J, Tuazon OA et al. A comparison of the protective efficacy of procaterol aerosol and
+            syrup in exercise-induced asthma. Am J Resp and Critical Care Med 2000; 161 (3) A345
+        </string>
+
+    // Slide 2
+
+    <string name="brezu2_title">Prevents Nocturnal Asthma</string>
+        <string name="brezu2_text1">
+            \"&#8230;that procaterol significantly inhibited the reduction in pulmonary flow rates early in the morning hours, as well as significantly decreasing the amount of wheezing measured at the time.\"
+        </string>
+
+    // Slide 3
+
+    <string name="brezu3_title">Faster Onset of Action vs. Salbutamol</string>
+    <string name="brezu3_text1">Comparative study on Bronchadilating Effects of Procaterol and Salbutamol</string>
+    <string name="brezu3_choice1">Salbutamol</string>
+    <string name="brezu3_choice2">Procaterol</string>
+    <string name="brezu3_value">Salbutamol (n = 25)\nProcaterol (n = 25)</string>
+
+    // Slide 4
+
+    <string name="brezu4_title">No Drug Tolerance</string>
+        <string name="brezu4_text1">
+            The effectiveness of Procaterol was maintained through 3 months of treatment unlike Salbutamol, which appeared to decrease.
+        </string>
+    <string name="brezu4_caption1">AFTER 1 MONTH</string>
+    <string name="brezu4_caption2">AFTER 3 MONTHS</string>
+        <string name="brezu4_text2">
+            Comparison of mean percent of FEV1 from predose values during 8hr. postdose between: \n
+            Group I: received procaterol 0.05 mg twice daily for 2wk followed by 0.10mg twice daily for 10wk. \n
+            Group II: received Salbutamol 2mg three times a day for 2wk followed by 4mg three times aday for 10wk.
+        </string>
+
+    // CLARITHROMYCIN
+
+    // Slide 1
+
+    <string name="clar_caps">CLARITHROMYCIN</string>
+    <string name="clar1_title">Clarithro - Natrapharm</string>
+        <string name="clar1_dosage">
+            250mg / 5mL suspension\n
+            125mg / 5mL suspension
+        </string>
+
+    // Slide 2
+
+    <string name="clar2_title">Indications</string>
+        <string name="clar2_text1">&#8226; LOWER RESPIRATORY TRACT INFECTION (E.G. BRONCHITIS, PNEUMONIA)
+            \n&#8226; UPPER RESPIRATORY TRACT INFECTION (E.G. STREPTOCOCCAL PHARYNGITIS)
+            \n&#8226; SKIN AND SKIN STRUCTURE INFECTIONS (E.G. IMPETIGO, FOLLICULITIS, CELLULITIS)
+            \n&#8226; DISSEMINATED OR LOCALIZED MYCOBACTERIAL INFECTIONS DUE TO <i>MYCOBACTERIUM</i> OR <i>MYCOBACTERIUM INTRA CELLULARE</i>
+            \n&#8226; LOCALIZED INFECTIONS DUE TO <i>MYCOBACTERIUM CHELONAE, MYCOBACTERIUM FORTUITUIM,</i> OR <i>MYCOBACTERIUM KANSAII</i>
+        </string>
+
+    // Slide 3
+
+        <string name="clar3_title">
+            Dosage in Patients with Renal Impairment
+        </string>
+        <string name="clar3_text1">
+            In children with creatinine clearance with less than 30mL min., the dosage of CLARITHROMYCIN should be reduced by one-half.
+            250mg once daily or 250mg twice on more severe infections. Dosage should not be continued beyond 14 days in these patients.
+        </string>
+
+    // Slide 4
+
+        <string name="clar4_title">
+            Dosage in Patients with Mycobacterial Infection
+        </string>
+        <string name="clar4_text1">
+            In children with sisseminated or localized mycobacterial infection (M. Avium, M. Intracellulare, M. Chelonae,
+            M. Fortiumtum, M. Kansasii), the recommended dose is 15 to 30 mg/kg CLARITHROMTHYCON per day divided in to 2 doses.
+        </string>
+
+    // Slide 5
+
+        <string name="clar5_text1">
+            The combination of a beta-lactam plus a macrolide could be suggested in the
+            first-line treatment of CAp in the immunocompetent children aged 2 to 5 years old.
+        </string>
+        <string name="clar5_text2">
+            Esposito et al. Characteristics of Streptococcus pneumonia and Atypical Bacterial Infection
+            in Children 2 to 5 years of age with Community-Acquired Pneumonia.\n
+            Clinical Diseases 2002; \n
+            35:1345-52
+        </string>
+
+    // Slide 6
+
+        <string name="clar6_text1">
+            Primary combination treatment with MACROLIDES in the areas where there is a high prevalence of atypical organism.
+        </string>
+        <string name="clar6_text2">
+            Chetty K. Thomson AH. Management of Community-Acquired Pneumonia in Children.\n
+            Paediatr Drugs.\n
+            2007:9(6)-401-11
+        </string>
+
+    // Slide 7
+
+        <string name="clar7_text1">
+            Children &lt; 8kg or &lt; 18lbs. should be dosed on a per kg or per lb. basis (approx. 7,5 mg/kg BID or 3.4 mg/lb BIF)
+        </string>
+
+    // Heraclene
+
+    // Slide 1
+
+    <string name="dibher_boxname">Dibencozide</string>
+    <string name="dibher_medname">Heraclene </string>
+    <string name="dibher1_title">For Picky and Fussy Eaters</string>
+    <string name="dibher1_subtitle">Children with little or no appetite</string>
+    <string name="dibher1_text1">The only protein building, non-sedating appetite stimulant</string>
+
+    // Slide 2
+
+    <string name="dibher2_title">Protein Building Process</string>
+        <string name="dibher2_text1">
+            Acts as the key coenzyme in the activation of incorporation of amino to form protein molecules
+        </string>
+        <string name="dibher2_text2">
+            Contributes to accelerated formation and repair of bady tissues
+        </string>
+        <string name="dibher2_text3">
+            Facilitates optimum utilization of dietary protein intake
+        </string>
+
+    // Slide 3
+
+    <string name="dibher3_title">Appetite Stimulant</string>
+        <string name="dibher3_text1">
+            As amino acid incorporation is accelerated, more polypeptide chains are formed in to bigger protein molecules,
+            thus, the artificial lack of amino acid in the amino acid pool. This results to stimulation of appetite.
+        </string>
+        <string name="dibher3_text2">
+            \"There is a marked effect upon appetite\" after 7 to 31 days of treatment with Heraclene.
+        </string>
+
+    // Slide 4
+
+        <string name="dibher4_check1">
+            Non-Sedating\n
+            Will not cause drowsiness
+        </string>
+        <string name="dibher4_check2">
+            Excellent Tolerance\n
+            No side effects\n
+            No contraindications
+        </string>
+        <string name="dibher4_check3">
+            Convenient Capsule Form\n
+            Tasteless and Odorless\n
+            Child will hardly notice medicine
+        </string>
+
+    // Slide 5
+
+    <string name="dibher5_title1">Prescription Information</string>
+        <string name="dibher5_text1">
+            Formulation\n
+            Each Capsule contains Dibencozide - 1mg
+        </string>
+    <string name="dibher5_title2">Actions</string>
+        <string name="dibher5_text2">
+            Dibencozide increases the protein \"efficiency coefficient\" (i.e. the percentage of bound nutrition
+            for protein build up in the body compared to ingested nitrogen with food intake). The initial sign
+            of effectiveness is manisfested by a marked increase in appetite.
+        </string>
+        <string name="dibher5_text3">
+            Thus, DIBENCOZIDE
+            1. Facilitates optimum utilization of dietary intake\n
+            2. Contributes to the formation and repair of body tissue\n
+            3. Stimulates appetite
+        </string>
+
+    // Slide 6
+
+    <string name="dibher6_title1">Indications</string>
+        <string name="dibher6_text1">
+            &#8226; Poor appetite\n
+            &#8226; Adjuvant to treatment of luberculous and other chronic ailments\n
+            &#8226; Convalescense  from acute infection or surgery\n
+            &#8226; Faulty nutrition in older people\n
+            &#8226; Premature babies, Low birth weight. Retardted growth
+        </string>
+    <string name="dibher6_title2">Dosage</string>
+        <string name="dibher6_text2">
+            Premature babies / infants:
+            1 Capsule daily (Capsule may be opened. Odorless and tasteless powder can be mixed in to milk or juice.)
+            Children and Adolescents:
+            2-3 Capsules daily (3 capsules daily or as prescribed by Physician)
+            Adults:
+            2-3 Capsules daily (3 capsules daily or as prescribed by Physician)
+        </string>
+
+    // Slide 7
+
+    <string name="dibher7_title1">Cautions</string>
+        <string name="dibher7_text1">
+            Food, Drugs, Devices and Cosmetics Act prohibits dispensing without prescription.
+        </string>
+    <string name="dibher7_title2">Presentation</string>
+    <string name="dibher7_text2">Box of 100 capsules</string>
+    <string name="dibher7_title3">Reference</string>
+        <string name="dibher7_text3">
+            1. F. Gillot and J.L. Condudal. Clinical Trial of a Non-Steroidical an Anaboloc drugs in Pediatrics L. Quest
+            Medical 25 May 1968 11-899-902 \n
+            2. P. Debray, Cobamide-Coenzyme in Pediatric Practice: Medicine Infantile, 1966.
+        </string>
+
+    // HERACLENE 1mg
+
+    // Slide 1
+
+    <string name="dibher1mg1_caption">For the most delicate of patients&#8230;</string>
+    <string name="dibher1mg_subtitle">1mg Capsule</string>
+    <string name="dibher1mg1_title">Promotes Weight, Promotes Health</string>
+        <string name="dibher1mg1_subtitle">
+            The only protein-building appetite stimulant for low birth weight and premature babies.
+        </string>
+
+    // Slide 2
+
+    <string name="dibher1mg2_title">The only protein-building appetite stimulant</string>
+    <string name="dibher1mg2_subtitle">Proven effective, proven safe for low birth weight babies</string>
+        <string name="dibher1mg2_text1">
+            &#8226; Prospective, double-blind, randomized, controlled trial to evaluate efficacy add safety of
+                    Dibencozide in low birth weight infants &lt; 35 weeks age of gestation\n
+            &#8226; Primary objective: to determine difference in mean weight gain between infants given preterm milk formula with placebo
+        </string>
+    <string name="dibher1mg2_result">Result:</string>
+        <string name="dibher1mg2_text2">
+            &#8226; Dibencozide group had statistically significant 4g/day difference in mean weight gain compared to placebo\n
+            &#8226; Dibencozide group had shorter duration of intervention compared to placebo (13.2 days + vs. 15.7 days + 9.9)\n
+            &#8226; Risk Ratio and NNT for sepsis, pneumonia, necrotizing enterocolitis and death: benefit towards dibencozide
+        </string>
+
+    // Slide 3
+
+    <string name="dibher1mg3_title">Protein Builder</string>
+    <string name="dibher1mg3_subtitle">The Protein Building Process</string>
+        <string name="dibher1mg3_text1">
+            &#8226; acts as the key coenzyme in the activation of incorporation of amino acids to form protein molecules\n
+            &#8226; contributes to accelerated formation and repair of body tissues\n
+            &#8226; facilitates optimum utilization of dietary protein intake
+        </string>
+
+    // Slide 4
+
+    <string name="dibher1mg4_title1">Formulation</string>
+        <string name="dibher1mg4_text1">
+            Each Capsule contains Dibencozide 1mg
+        </string>
+    <string name="dibher1mg4_title2">Actions</string>
+        <string name="dibher1mg4_text2">
+            Each DIBENCOZIDE increases the protein \"efficiency coefficient\", i.e., the percentage of
+            \"bound nitrogen\" for protein build up in the body compared to \"ingested nitrogen with food intake\". The initial sign of effectiveness is manifested by marked increase in appetite.
+        </string>
+        <string name="dibher1mg4_text3">
+            Thus, DIBENCOZIDE
+            1. Facilitates optimum utilization of dietary intake\n
+            2. Contributes to the formation and repair of body tissue\n
+            3. Stimulates appetite
+        </string>
+    <string name="dibher1mg4_title4">Indications</string>
+        <string name="dibher1mg4_text4">
+            1. Poor appetite in children and adults\n
+            2. Adjuvant to treatment of tuberculosis and other chronic ailments\n
+            3. Convalescence from acute infection of surgery\n
+            4.Faulty nutrition in older people
+        </string>
+    <string name="dibher1mg4_title5">Dosage</string>
+        <string name="dibher1mg4_text5">
+            Children and adolescents: 1 capsule daily or as prescribed by the physician.\n
+            Adults: 3 capsules daily or as prescribed by the physician.\n
+            The initial sign of its effectiveness is manifested by a marked increase in appetite.
+        </string>
+    <string name="dibher1mg4_title6">Caution</string>
+        <string name="dibher1mg4_text6">
+            Food, Drugs, Devices and Cosmetics Act prohibits dispensing without prescription.
+        </string>
+    <string name="dibher1mg4_title7">Presentation</string>
+    <string name="dibher1mg4_text7">Box of 50 capsules</string>
+
+    // KIDZ KIT
+
+    // Slide 1
+    <string name="kidzkit1_suspension">suspension</string>
+
+    <string name="kidzkit_boxname1">Pyrazinamide</string>
+    <string name="kidzkit_medname1">Z&#174;cure</string>
+    <string name="kidzkit_dosage1">500mg/5ml</string>
+
+    // For Slide 1 and 2
+
+    <string name="kidzkit_boxname2">Rifampicin</string>
+    <string name="kidzkit_medname2">Natricin&#174; Forte</string>
+    <string name="kidzkit_dosage2">200mg/5ml</string>
+
+    <string name="kidzkit_boxname3">Isoniazid+ Pyridoxine HCI</string>
+    <string name="kidzkit_medname3">Curazid&#174; Forte</string>
+    <string name="kidzkit_dosage3">200mg/10ml per 5ml syrup</string>
+
+    // MONTEMAX
+
+    // Slide 1
+
+        <string name="montemax_dosage">
+            4mg, 5mg, and 10mg chewable tablet
+        </string>
+        <string name="montemax1_subtitle1">
+            Achieve control (in Asthma and Allergic Rhinitis)
+        </string>
+        <string name="montemax1_reminder1">
+            Should be taken once daily.
+        </string>
+        <string name="montemax1_bullet1">
+            For Asthma, the dose should be taken in the evening to prevent nocturnal attack.
+        </string>
+        <string name="montemax1_bullet2">
+            For Allergic Rhinitis, the time of administration may be individualized to suit patient needs.
+        </string>
+        <string name="montemax1_bullet3">
+            Patients with both Asthma and Allergic Rhinitis, should only take one tablet daily in the evening.
+        </string>
+        <string name="montemax1_bullet4">
+            Patients below 15 years old with Asthma and or Allergic Rhinitis: one 5 mg chewable tablet daily,
+            no adjustment within the age group is necessary.
+        </string>
+        <string name="montemax1_bullet5">
+            Children between 2 to 5 years old with Asthma and/or Allergic Rhinitis: one 4mg chewable tablet daily.
+        </string>
+
+    // Slide 2
+
+        <string name="montemax2_title">
+            Recommended Asthma Medications
+        </string>
+    <string name="montemax2_severityHeader">Severity</string>
+    <string name="montemax2_dcmHeader">Daily Controller Medication</string>
+    <string name="montemax2_otherHeader">Other Options</string>
+
+    <string name="montemax2_severity1">Mild Persistent</string>
+    <string name="montemax2_severity2">Moderate Persistent</string>
+    <string name="montemax2_severity3">Severe Persistent</string>
+
+        <string name="montemax2_dcm1">
+            &#8226; Inhaled glucocorticosteroid (100 - 400 &#956;g budesonide or equivalent)
+        </string>
+        <string name="montemax2_dcm2">
+            &#8226; Inhaled glucocorticosteroid (400 - 800 &#956;g budesonide or equivalent)
+        </string>
+        <string name="montemax2_dcm3">
+            &#8226; Inhaled glucocorticosteroid (&gt; 800 &#956;g budesonide or equivalent)
+            plus one or more of the following, if needed:\n
+            a. Sustained-release theophylline\n
+            b. Cromone\n
+            c. Leukotriene modifier - MONTELUKAST
+        </string>
+
+        <string name="montemax2_other1or3">
+            &#8226; Sustained-release theophylline\n
+            &#8226; Cromone\n
+            &#8226; Leukotriene modifier - MONTELUKAST
+        </string>
+
+        <string name="montemax2_other2">
+            &#8226; Inhaled glucocorticosteroid (&lt; 800g budesonide or equivalent) along with any of the following:\n
+            a. sustained-release theophylline\n
+            b. plus long-acting inhaled &#946;2- agonist\n
+            c. Leukotriene modifier - MONTELUKAST
+        </string>
+
+    // Slide 3
+
+        <string name="montemax3_title">
+            Classification of Allergic Rhinitis: ARIA Guidelines
+        </string>
+    <string name="montemax3_subtitle1">Intermittent</string>
+    <string name="montemax3_subtitle2">Persistent</string>
+    <string name="montemax3_subtitle3">Mild</string>
+    <string name="montemax3_subtitle4">Moderate - Severe</string>
+
+        <string name="montemax3_interper">
+            &gt; 4 days a week or &lt; 4 weeks
+        </string>
+        <string name="montemax3_mild">
+            &#8226; normal sleep\n
+            &#8226; no impairment of daily activities, sport, or leisure\n
+            &#8226; normal work and school\n
+            &#8226; no troublesome symptoms\n
+        </string>
+        <string name="montemax3_moderate">
+            &#8226; abnormal sleep\n
+            &#8226; impairment of daily activities, sport, or leisure\n
+            &#8226; abnormal work and school\n
+            &#8226; troublesome symptoms\n
+        </string>
+
+    // Slide 4
+
+        <string name="montemax4_title">
+            Management of Allergic Rhinitis: ARIA Guidelines
+        </string>
+
+    // NATRAVOX
+
+    // Slide 1
+
+    <string name="natravox_boxname">Co-amoxiclave</string>
+        <string name="natravox_dosage">
+            156mg/5mL | 228/5mL \n
+            312mg/5mL | 457mg/5mL/suspension
+        </string>
+        <string name="natravox1_text">
+            \"The prudent step-up against key pathogens.\"
+        </string>
+
+    // Slide 2
+
+        <string name="natravox2_title">
+            For Optimal Antimicrobial Treatment in Respiratory Tract Infections
+        </string>
+    <string name="natravox2_choice1">Aim for Bacteria Eradication</string>
+    <string name="natravox2_choice2">Minimize Resistance Emergence</string>
+    <string name="natravox2_choice3">Choose&#8230;</string>
+
+    // Slide 3
+
+        <string name="natravox3_title">
+            In the treatment of Respiratory Tract Infections
+        </string>
+        <string name="natravox3_text1">
+            CLINICAL CURE + BACTERIAL ERADICATION
+        </string>
+    <string name="natravox3_equals">=</string>
+        <string name="natravox3_text2">
+            Prevention of RELAPSE and ANTIBIOTIC RESISTANCE
+        </string>
+
+    // Slide 4
+
+        <string name="natravox4_text1">
+            \"When evaluating the efficacy of antibiotics for treatment of RTI,
+            assessment of clinical cure may not be the most relevant parameter,
+            as if it may not related to microbiological medication&#8230; of infecting pathogens.\"
+        </string>
+
+    // Slide 5
+
+        <string name="natravox5_text1">
+            \"&#8230;failure to eradicate bacteria may promote the emergence and dissemination of antimicrobial-resistant clones.
+            Pharmakinetic or Pharmadynamic parameters can be used to predict the bacteriological efficay of antimicrobial therapy.
+            In conclusion, the aim of antimicrobial therapy in respiratory infection should be the eradication of the infecting organisms.\"
+        </string>
+
+    // Slide 6
+
+        <string name="natravox6_title">
+            The Three Most Common Pathogens of the Respiratory Tract Infections are:
+        </string>
+    <string name="natravox6_text1">Streotoccocus Pneumoniae Gram (+)</string>
+    <string name="natravox6_text2">Haemophilus Influenzae Gram (+)</string>
+    <string name="natravox6_text3">Moraxella Catarrhalis Gram (+)</string>
+
+    // Slide 7
+        <string name="natravox7_text1">
+            \"&#8230;Streotoccocus Pneumoniae, Haemophilus influenzae and Moraxella Catarrhalis are the most common community-acquired
+            respiratory bacterial pathogens, and an increase in their resistance to the orally administered antimicrobial agents used
+            to treat these infections has emerged as a world-wide problem.\"
+        </string>
+
+    // Slide 8
+    <string name="natravox8_title">Indications</string>
+    <string name="natravox8_subtitle1">Genito Urinary Tract and Abdominal Infections</string>
+        <string name="natravox8_text1">
+            Examples include cystitis (especially when recurrent or not complicated, but not prostatitis) septic abortion,
+            pelvic or puerperal sepsis and intra-abdominal sepsis. These infections are often caused by Enterobacteriaceae
+            (mainly Escherichia coli), Staphyloccocus saprophyticus, and Enteroccocus species.
+        </string>
+    <string name="natravox8_subtitle2">Skin and Soft Tissues Infections</string>
+        <string name="natravox8_text2">
+            Examples include cellulitis, animal bites, and severe dental abcess with spreading cellulitis caused by Staphyloccocus
+            aureus, Streptoccocus pyogenes, and Bacteriodes species.
+        </string>
+
+    // Slide 9
+        <string name="natravox9_text1">
+            Convenient step-up against key Pathogens.
+        </string>
+        <string name="natravox9_text2">
+            Well tolerated and safe for children.
+        </string>
+        <string name="natravox9_text3">
+            No DIDP (Diisodecyl Phthalate) content.
+        </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_slider">Slider</string>
+
+</resources>

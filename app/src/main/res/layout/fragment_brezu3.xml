@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_brezu3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slider_bg"
+    tools:context="app.rocketship.pedia.pedia.slides.Brezu3Fragment">
+
+    <TextView
+        android:id="@+id/brezu3_title"
+        app:layout_widthPercent="70%"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="7%"
+        android:gravity="center"
+        android:text="@string/brezu3_title"
+        android:textSize="52sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/brezu3_text1"
+        app:layout_widthPercent="70%"
+        app:layout_heightPercent="8%"
+        app:layout_marginTopPercent="2%"
+        android:padding="10dp"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/brezu3_text1"
+        android:background="@drawable/brezu_round"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/brezu3_title"
+        android:layout_alignStart="@+id/brezu3_title" />
+
+    <android.support.percent.PercentRelativeLayout
+        app:layout_widthPercent="70%"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/brezu3_text1"
+        android:gravity="center"
+        app:layout_marginTopPercent="2%"
+        app:layout_marginLeftPercent="15%">
+
+        <android.support.percent.PercentRelativeLayout
+            android:id="@+id/brezu3_middlelayout"
+            app:layout_widthPercent="40%"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/brezu3_linearlist"
+                android:layout_width="match_parent"
+                app:layout_heightPercent="22%"
+                android:background="@drawable/brezu_round"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/brezu3_square1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/brezu1_square1"
+                    android:drawableStart="@drawable/square_red"
+                    android:drawablePadding="10dp"
+                    android:textSize="25sp"
+                    android:layout_marginStart="50dp"/>
+
+                <TextView
+                    android:id="@+id/brezu3_square2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/brezu1_square2"
+                    android:drawableStart="@drawable/square_blue"
+                    android:drawablePadding="10dp"
+                    android:textSize="25sp"
+                    android:layout_marginStart="50dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/brezu1_pvalue"
+                android:layout_width="match_parent"
+                app:layout_heightPercent="28%"
+                android:layout_below="@id/brezu3_linearlist"
+                android:background="@drawable/brezu_round"
+                android:text="@string/brezu3_value"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:padding="10dp"
+                app:layout_marginTopPercent="2%"/>
+
+        </android.support.percent.PercentRelativeLayout>
+
+        <app.rocketship.pedia.pedia.utils.GifView
+            android:id="@+id/brezu_bar2"
+            app:layout_widthPercent="60%"
+            app:layout_heightPercent="52%"
+            app:layout_marginLeftPercent="1%"
+            android:background="@drawable/brezu_round"
+            android:padding="10dp"
+            android:layout_toEndOf="@id/brezu3_middlelayout"
+            android:src="@drawable/bar2"
+            tools:ignore="ContentDescription"
+            android:layout_toRightOf="@id/brezu3_middlelayout" />
+
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>

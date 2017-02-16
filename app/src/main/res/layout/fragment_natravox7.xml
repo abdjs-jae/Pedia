@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_brezu1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/natravox_slider_bg"
+    tools:context="app.rocketship.pedia.pedia.slides.Natravox7Fragment">
+
+    <TextView
+        android:id="@+id/natravox7_text1"
+        android:text="@string/natravox7_text1"
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="60%"
+        app:layout_marginTopPercent="8%"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        />
+
+</android.support.percent.PercentRelativeLayout>

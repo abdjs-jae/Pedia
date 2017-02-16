@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_slider"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="app.rocketship.pedia.pedia.utils.SliderActivity">
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="android.support.v4.view.ViewPager"
+        android:id="@+id/sliderViewPager" />
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/brezu_bottomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="#66ffffff"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/natrapharm_logo"
+            app:layout_widthPercent="7%"
+            app:layout_heightPercent="7%"
+            android:src="@drawable/logo"
+            tools:ignore="ContentDescription"
+            app:layout_marginLeftPercent="1%"
+            app:layout_marginBottomPercent="2%"/>
+
+        <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabBackground="@drawable/tab_selector"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp"
+            android:id="@+id/sliderdotlayout"
+            android:layout_centerVertical="true">
+
+        </android.support.design.widget.TabLayout>
+
+
+    </android.support.percent.PercentRelativeLayout>
+
+</FrameLayout>

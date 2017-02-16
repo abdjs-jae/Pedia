@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_brezu1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/natravox_slider_bg"
+    tools:context="app.rocketship.pedia.pedia.slides.Natravox6Fragment">
+
+    <TextView
+        android:id="@+id/natravox6_title"
+        android:text="@string/natravox6_title"
+        app:layout_widthPercent="60%"
+        app:layout_heightPercent="15%"
+        app:layout_marginTopPercent="5%"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="45sp"
+        />
+
+    <android.support.percent.PercentRelativeLayout
+        app:layout_widthPercent="60%"
+        app:layout_heightPercent="40%"
+        app:layout_marginTopPercent="5%"
+        android:layout_below="@id/natravox6_title"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/natravox6_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b1"
+            app:layout_marginLeftPercent="8%"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/natravox6_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b2"
+            android:layout_toRightOf="@id/natravox6_image1"
+            app:layout_marginLeftPercent="22%"
+            app:layout_marginTopPercent="10%"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/natravox6_image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b3"
+            android:layout_toRightOf="@id/natravox6_image2"
+            app:layout_marginLeftPercent="12%"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/natravox6_text1"
+            android:text="@string/natravox6_text1"
+            app:layout_widthPercent="27%"
+            app:layout_heightPercent="40%"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_below="@+id/natravox6_image1" />
+
+        <TextView
+            android:id="@+id/natravox6_text2"
+            android:text="@string/natravox6_text2"
+            app:layout_widthPercent="27%"
+            app:layout_heightPercent="40%"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_below="@+id/natravox6_image2"
+            android:layout_toRightOf="@id/natravox6_text1"
+            app:layout_marginTopPercent="3%"
+            app:layout_marginLeftPercent="10%"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/natravox6_text3"
+            android:text="@string/natravox6_text3"
+            app:layout_widthPercent="27%"
+            app:layout_heightPercent="40%"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_below="@+id/natravox6_image3"
+            android:layout_toRightOf="@id/natravox6_text2"
+            app:layout_marginTopPercent="3%"
+            app:layout_marginLeftPercent="10%"
+            tools:ignore="RtlHardcoded" />
+
+    </android.support.percent.PercentRelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>
