@@ -1,4 +1,4 @@
-package app.rocketship.pedia.pedia.users;
+package app.natrapharmutil.users;
 
 import android.app.Activity;
 import android.content.Context;

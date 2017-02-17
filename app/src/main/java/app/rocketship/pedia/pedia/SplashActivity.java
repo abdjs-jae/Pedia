@@ -1,17 +1,15 @@
 package app.rocketship.pedia.pedia;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.media.MediaPlayer;
-import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
 import android.widget.Toast;
 import android.widget.VideoView;
 
-import app.rocketship.pedia.pedia.users.ActivityHandler;
-import app.rocketship.pedia.pedia.users.RegisterActivityAbstract;
+import app.natrapharmutil.users.ActivityHandler;
+import app.natrapharmutil.users.RegisterActivityAbstract;
 
 public class SplashActivity extends AppCompatActivity {
 

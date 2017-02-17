@@ -1,4 +1,4 @@
-package app.rocketship.pedia.pedia.users.sqlite;
+package app.natrapharmutil.users.sqlite;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

@@ -1,4 +1,4 @@
-package app.rocketship.pedia.pedia.users;
+package app.natrapharmutil.users;
 
 import android.app.Activity;
 import android.content.ContentValues;
@@ -27,17 +27,6 @@ import org.apache.commons.io.IOUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.io.UnsupportedEncodingException;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.ProtocolException;
-import java.net.URL;
-import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -45,8 +34,8 @@ import java.util.Map;
 import app.rocketship.pedia.pedia.MenuActivity;
 import app.rocketship.pedia.pedia.R;
 import app.rocketship.pedia.pedia.RegisterActivity;
-import app.rocketship.pedia.pedia.users.sqlite.SQLHelper;
-import app.rocketship.pedia.pedia.users.sqlite.SQLiteSingleton;
+import app.natrapharmutil.users.sqlite.SQLHelper;
+import app.natrapharmutil.users.sqlite.SQLiteSingleton;
 
 /**
  * Created by Candice on 13/02/2017.
