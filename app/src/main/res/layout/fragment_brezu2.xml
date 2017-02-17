@@ -6,40 +6,41 @@
     android:id="@+id/activity_brezu2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/slider_bg"
+    android:background="@drawable/brezu_2"
     tools:context="app.rocketship.pedia.pedia.slides.Brezu2Fragment">
 
-    <TextView
-        android:id="@+id/brezu2_title"
-        app:layout_widthPercent="60%"
-        app:layout_heightPercent="10%"
-        app:layout_marginTopPercent="25%"
-        android:gravity="center_horizontal"
-        android:text="@string/brezu2_title"
-        android:textSize="60sp"
-        android:layout_centerHorizontal="true" />
+        <!--<TextView
+            android:id="@+id/brezu2_title"
+            app:layout_widthPercent="60%"
+            app:layout_heightPercent="10%"
+            app:layout_marginTopPercent="25%"
+            android:gravity="center_horizontal"
+            android:text="@string/brezu2_title"
+            android:textSize="60sp"
+            android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:id="@+id/brezu2_text1"
-        app:layout_widthPercent="60%"
-        app:layout_heightPercent="35%"
-        app:layout_marginTopPercent="2%"
-        android:gravity="center_horizontal"
-        android:text="@string/brezu2_text1"
-        android:textSize="40sp"
-        android:layout_below="@id/brezu2_title"
-        android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/brezu2_text1"
+            app:layout_widthPercent="60%"
+            app:layout_heightPercent="35%"
+            app:layout_marginTopPercent="2%"
+            android:gravity="center_horizontal"
+            android:text="@string/brezu2_text1"
+            android:textSize="40sp"
+            android:layout_below="@id/brezu2_title"
+            android:layout_centerHorizontal="true" />
 
-    <ImageView
-        app:layout_widthPercent="15%"
-        app:layout_heightPercent="25%"
-        app:layout_marginTopPercent="10%"
-        app:layout_marginRightPercent="5%"
-        android:layout_gravity="end"
-        android:src="@drawable/orange"
-        tools:ignore="ContentDescription"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"/>
+        <ImageView
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="25%"
+            app:layout_marginTopPercent="10%"
+            app:layout_marginRightPercent="5%"
+            android:layout_gravity="end"
+            android:src="@drawable/orange"
+            tools:ignore="ContentDescription"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>-->
+
 
 </android.support.percent.PercentRelativeLayout>

@@ -6,10 +6,10 @@
     android:id="@+id/activity_brezu1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/natravox_slider_bg"
+    android:background="@drawable/natravox_3"
     tools:context="app.rocketship.pedia.pedia.slides.Natravox3Fragment">
 
-    <TextView
+    <!--<TextView
         android:id="@+id/natravox3_title"
         android:text="@string/natravox3_title"
         app:layout_widthPercent="60%"
@@ -60,6 +60,6 @@
             android:textSize="40sp"
             tools:ignore="RtlHardcoded" />
 
-    </android.support.percent.PercentRelativeLayout>
+    </android.support.percent.PercentRelativeLayout>-->
 
 </android.support.percent.PercentRelativeLayout>

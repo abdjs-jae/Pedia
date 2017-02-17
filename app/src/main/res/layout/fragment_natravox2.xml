@@ -6,63 +6,63 @@
     android:id="@+id/activity_brezu1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/natravox_slider_bg"
+    android:background="@drawable/natravox_2"
     tools:context="app.rocketship.pedia.pedia.slides.Natravox2Fragment">
 
-    <TextView
-        android:id="@+id/natravox2_title"
-        android:text="@string/natravox2_title"
-        app:layout_widthPercent="60%"
-        app:layout_heightPercent="15%"
-        app:layout_marginTopPercent="5%"
-        android:gravity="center"
-        android:layout_centerHorizontal="true"
-        android:textSize="45sp"
-        />
+        <!--<TextView
+            android:id="@+id/natravox2_title"
+            android:text="@string/natravox2_title"
+            app:layout_widthPercent="60%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="5%"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textSize="45sp"
+            />
 
-    <TextView
-        android:id="@+id/natravox2_choice1"
-        android:text="@string/natravox2_choice1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_marginTopPercent="5%"
-        app:layout_marginLeftPercent="25%"
-        android:layout_below="@id/natravox2_title"
-        android:drawableLeft="@drawable/check"
-        android:drawablePadding="10dp"
-        android:gravity="center"
-        android:layout_alignParentLeft="true"
-        android:textSize="40sp"
-        tools:ignore="RtlHardcoded" />
+        <TextView
+            android:id="@+id/natravox2_choice1"
+            android:text="@string/natravox2_choice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="5%"
+            app:layout_marginLeftPercent="25%"
+            android:layout_below="@id/natravox2_title"
+            android:drawableLeft="@drawable/check"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:textSize="40sp"
+            tools:ignore="RtlHardcoded" />
 
-    <TextView
-        android:id="@+id/natravox2_choice2"
-        android:text="@string/natravox2_choice2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_marginTopPercent="1%"
-        app:layout_marginLeftPercent="25%"
-        android:layout_below="@id/natravox2_choice1"
-        android:drawableLeft="@drawable/check"
-        android:drawablePadding="10dp"
-        android:gravity="center"
-        android:layout_alignParentLeft="true"
-        android:textSize="40sp"
-        tools:ignore="RtlHardcoded" />
+        <TextView
+            android:id="@+id/natravox2_choice2"
+            android:text="@string/natravox2_choice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="1%"
+            app:layout_marginLeftPercent="25%"
+            android:layout_below="@id/natravox2_choice1"
+            android:drawableLeft="@drawable/check"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:textSize="40sp"
+            tools:ignore="RtlHardcoded" />
 
-    <TextView
-        android:id="@+id/natravox2_choice3"
-        android:text="@string/natravox2_choice3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_marginTopPercent="1%"
-        app:layout_marginLeftPercent="25%"
-        android:layout_below="@id/natravox2_choice2"
-        android:drawableLeft="@drawable/check"
-        android:drawablePadding="10dp"
-        android:gravity="center"
-        android:layout_alignParentLeft="true"
-        android:textSize="40sp"
-        tools:ignore="RtlHardcoded" />
+        <TextView
+            android:id="@+id/natravox2_choice3"
+            android:text="@string/natravox2_choice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="1%"
+            app:layout_marginLeftPercent="25%"
+            android:layout_below="@id/natravox2_choice2"
+            android:drawableLeft="@drawable/check"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:textSize="40sp"
+            tools:ignore="RtlHardcoded" />-->
 
 </android.support.percent.PercentRelativeLayout>
