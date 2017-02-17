@@ -8,7 +8,7 @@ import android.view.Window;
 import android.widget.TextView;
 
 import app.natrapharmutil.users.DataHandler;
-import app.natrapharmutil.users.sqlite.SQLiteSingleton;
+import com.artise.natrapharmutil.sqlite.SQLiteSingleton;
 import app.rocketship.pedia.pedia.utils.PageSlidesHandler;
 import app.rocketship.pedia.pedia.utils.SliderActivity;
 

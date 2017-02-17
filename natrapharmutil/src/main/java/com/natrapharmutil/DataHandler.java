@@ -1,6 +1,5 @@
-package app.natrapharmutil.users;
+package com.artise.natrapharmutil;
 
-import android.app.Activity;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -31,11 +30,8 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import app.rocketship.pedia.pedia.MenuActivity;
-import app.rocketship.pedia.pedia.R;
-import app.rocketship.pedia.pedia.RegisterActivity;
-import app.natrapharmutil.users.sqlite.SQLHelper;
-import app.natrapharmutil.users.sqlite.SQLiteSingleton;
+import com.artise.natrapharmutil.sqlite.SQLHelper;
+import com.artise.natrapharmutil.sqlite.SQLiteSingleton;
 
 /**
  * Created by Candice on 13/02/2017.

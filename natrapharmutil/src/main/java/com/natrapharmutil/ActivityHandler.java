@@ -1,13 +1,11 @@
-package app.natrapharmutil.users;
+package com.artise.natrapharmutil;
+
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.provider.ContactsContract;
 import android.util.Log;
 
-import app.rocketship.pedia.pedia.R;
-import app.rocketship.pedia.pedia.SplashActivity;
 
 /**
  * Created by Candice on 14/02/2017.
