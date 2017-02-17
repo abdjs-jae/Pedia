@@ -1,4 +1,4 @@
-package app.rocketship.pedia.pedia;
+package app.rocketship.pedia;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,10 +7,9 @@ import android.view.View;
 import android.view.Window;
 import android.widget.TextView;
 
-import app.natrapharmutil.users.DataHandler;
-import com.artise.natrapharmutil.sqlite.SQLiteSingleton;
-import app.rocketship.pedia.pedia.utils.PageSlidesHandler;
-import app.rocketship.pedia.pedia.utils.SliderActivity;
+import app.natrapharmutil.DataHandler;
+import app.rocketship.pedia.utils.PageSlidesHandler;
+import app.rocketship.pedia.utils.SliderActivity;
 
 public class MenuActivity extends AppCompatActivity {
 

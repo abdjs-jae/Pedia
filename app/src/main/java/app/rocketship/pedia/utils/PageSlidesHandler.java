@@ -1,4 +1,4 @@
-package app.rocketship.pedia.pedia.utils;
+package app.rocketship.pedia.utils;
 
 
 
@@ -6,43 +6,43 @@ import android.support.v4.app.Fragment;
 
 import java.util.ArrayList;
 
-import app.rocketship.pedia.pedia.slides.Brezu1Fragment;
-import app.rocketship.pedia.pedia.slides.Brezu2Fragment;
-import app.rocketship.pedia.pedia.slides.Brezu3Fragment;
-import app.rocketship.pedia.pedia.slides.Brezu4Fragment;
-import app.rocketship.pedia.pedia.slides.Clarithro1Fragment;
-import app.rocketship.pedia.pedia.slides.Clarithro2Fragment;
-import app.rocketship.pedia.pedia.slides.Clarithro3Fragment;
-import app.rocketship.pedia.pedia.slides.Clarithro4Fragment;
-import app.rocketship.pedia.pedia.slides.Clarithro5Fragment;
-import app.rocketship.pedia.pedia.slides.Clarithro6Fragment;
-import app.rocketship.pedia.pedia.slides.Clarithro7Fragment;
-import app.rocketship.pedia.pedia.slides.Hera1Fragment;
-import app.rocketship.pedia.pedia.slides.Hera2Fragment;
-import app.rocketship.pedia.pedia.slides.Hera3Fragment;
-import app.rocketship.pedia.pedia.slides.Hera4Fragment;
-import app.rocketship.pedia.pedia.slides.Hera5Fragment;
-import app.rocketship.pedia.pedia.slides.Hera6Fragment;
-import app.rocketship.pedia.pedia.slides.Hera7Fragment;
-import app.rocketship.pedia.pedia.slides.HeraOne1Fragment;
-import app.rocketship.pedia.pedia.slides.HeraOne2Fragment;
-import app.rocketship.pedia.pedia.slides.HeraOne3Fragment;
-import app.rocketship.pedia.pedia.slides.HeraOne4Fragment;
-import app.rocketship.pedia.pedia.slides.KidzKit1Fragment;
-import app.rocketship.pedia.pedia.slides.KidzKit2Fragment;
-import app.rocketship.pedia.pedia.slides.Montemax1Fragment;
-import app.rocketship.pedia.pedia.slides.Montemax2Fragment;
-import app.rocketship.pedia.pedia.slides.Montemax3Fragment;
-import app.rocketship.pedia.pedia.slides.Montemax4Fragment;
-import app.rocketship.pedia.pedia.slides.Natravox1Fragment;
-import app.rocketship.pedia.pedia.slides.Natravox2Fragment;
-import app.rocketship.pedia.pedia.slides.Natravox3Fragment;
-import app.rocketship.pedia.pedia.slides.Natravox4Fragment;
-import app.rocketship.pedia.pedia.slides.Natravox5Fragment;
-import app.rocketship.pedia.pedia.slides.Natravox6Fragment;
-import app.rocketship.pedia.pedia.slides.Natravox7Fragment;
-import app.rocketship.pedia.pedia.slides.Natravox8Fragment;
-import app.rocketship.pedia.pedia.slides.Natravox9Fragment;
+import app.rocketship.pedia.slides.Brezu1Fragment;
+import app.rocketship.pedia.slides.Brezu2Fragment;
+import app.rocketship.pedia.slides.Brezu3Fragment;
+import app.rocketship.pedia.slides.Brezu4Fragment;
+import app.rocketship.pedia.slides.Clarithro1Fragment;
+import app.rocketship.pedia.slides.Clarithro2Fragment;
+import app.rocketship.pedia.slides.Clarithro3Fragment;
+import app.rocketship.pedia.slides.Clarithro4Fragment;
+import app.rocketship.pedia.slides.Clarithro5Fragment;
+import app.rocketship.pedia.slides.Clarithro6Fragment;
+import app.rocketship.pedia.slides.Clarithro7Fragment;
+import app.rocketship.pedia.slides.Hera1Fragment;
+import app.rocketship.pedia.slides.Hera2Fragment;
+import app.rocketship.pedia.slides.Hera3Fragment;
+import app.rocketship.pedia.slides.Hera4Fragment;
+import app.rocketship.pedia.slides.Hera5Fragment;
+import app.rocketship.pedia.slides.Hera6Fragment;
+import app.rocketship.pedia.slides.Hera7Fragment;
+import app.rocketship.pedia.slides.HeraOne1Fragment;
+import app.rocketship.pedia.slides.HeraOne2Fragment;
+import app.rocketship.pedia.slides.HeraOne3Fragment;
+import app.rocketship.pedia.slides.HeraOne4Fragment;
+import app.rocketship.pedia.slides.KidzKit1Fragment;
+import app.rocketship.pedia.slides.KidzKit2Fragment;
+import app.rocketship.pedia.slides.Montemax1Fragment;
+import app.rocketship.pedia.slides.Montemax2Fragment;
+import app.rocketship.pedia.slides.Montemax3Fragment;
+import app.rocketship.pedia.slides.Montemax4Fragment;
+import app.rocketship.pedia.slides.Natravox1Fragment;
+import app.rocketship.pedia.slides.Natravox2Fragment;
+import app.rocketship.pedia.slides.Natravox3Fragment;
+import app.rocketship.pedia.slides.Natravox4Fragment;
+import app.rocketship.pedia.slides.Natravox5Fragment;
+import app.rocketship.pedia.slides.Natravox6Fragment;
+import app.rocketship.pedia.slides.Natravox7Fragment;
+import app.rocketship.pedia.slides.Natravox8Fragment;
+import app.rocketship.pedia.slides.Natravox9Fragment;
 
 /**
  * Created by Candice on 12/02/2017.

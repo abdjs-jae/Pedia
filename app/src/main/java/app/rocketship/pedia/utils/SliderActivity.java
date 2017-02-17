@@ -1,4 +1,4 @@
-package app.rocketship.pedia.pedia.utils;
+package app.rocketship.pedia.utils;
 
 import android.content.Intent;
 import android.os.Bundle;

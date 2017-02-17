@@ -1,5 +1,4 @@
-package app.rocketship.pedia.pedia.slides;
-
+package app.rocketship.pedia.slides;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
