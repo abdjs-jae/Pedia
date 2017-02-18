@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="app.rocketship.pedia.pedia.utils.SliderActivity">
+    tools:context="app.rocketship.pedia.utils.SliderActivity">
 
     <view
         android:layout_width="match_parent"

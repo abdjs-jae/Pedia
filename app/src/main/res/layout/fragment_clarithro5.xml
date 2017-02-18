@@ -3,6 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/clarithro_slide5"
-    tools:context="app.rocketship.pedia.pedia.slides.Clarithro5Fragment">
+    tools:context="app.rocketship.pedia.slides.Clarithro5Fragment">
 
 </FrameLayout>

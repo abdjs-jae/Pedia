@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/natravox_2"
-    tools:context="app.rocketship.pedia.pedia.slides.Natravox2Fragment">
+    tools:context="app.rocketship.pedia.slides.Natravox2Fragment">
 
         <!--<TextView
             android:id="@+id/natravox2_title"

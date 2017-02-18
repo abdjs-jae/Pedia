@@ -3,6 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/kidzkit_1"
-    tools:context="app.rocketship.pedia.pedia.slides.KidzKit1Fragment">
+    tools:context="app.rocketship.pedia.slides.KidzKit1Fragment">
 
 </FrameLayout>

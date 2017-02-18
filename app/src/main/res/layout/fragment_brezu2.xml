@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/brezu_2"
-    tools:context="app.rocketship.pedia.pedia.slides.Brezu2Fragment">
+    tools:context="app.rocketship.pedia.slides.Brezu2Fragment">
 
         <!--<TextView
             android:id="@+id/brezu2_title"

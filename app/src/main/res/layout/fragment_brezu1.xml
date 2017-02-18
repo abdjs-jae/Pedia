@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/slider_bg"
-    tools:context="app.rocketship.pedia.pedia.slides.Brezu1Fragment">
+    tools:context="app.rocketship.pedia.slides.Brezu1Fragment">
 
     <android.support.percent.PercentRelativeLayout
         android:id="@+id/brezu1_mainlayout"

@@ -3,6 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/montemax_slide1"
-    tools:context="app.rocketship.pedia.pedia.slides.Montemax1Fragment">
+    tools:context="app.rocketship.pedia.slides.Montemax1Fragment">
 
 </FrameLayout>

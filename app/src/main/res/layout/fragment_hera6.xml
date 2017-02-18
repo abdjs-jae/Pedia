@@ -3,6 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/dibher_slide6"
-    tools:context="app.rocketship.pedia.pedia.slides.Hera6Fragment">
+    tools:context="app.rocketship.pedia.slides.Hera6Fragment">
 
 </FrameLayout>
