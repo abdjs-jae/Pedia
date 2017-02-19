@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 
 import app.rocketship.pedia.R;
 
-
 /**
  * A simple {@link Fragment} subclass.
  */
