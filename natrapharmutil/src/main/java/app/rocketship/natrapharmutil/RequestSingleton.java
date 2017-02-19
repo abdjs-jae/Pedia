@@ -1,4 +1,4 @@
-package com.artise.natrapharmutil;
+package app.rocketship.natrapharmutil;
 
 import android.content.Context;
 

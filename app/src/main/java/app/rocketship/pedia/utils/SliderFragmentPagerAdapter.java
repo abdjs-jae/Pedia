@@ -1,4 +1,4 @@
-package app.rocketship.pedia.pedia.utils;
+package app.rocketship.pedia.utils;
 
 
 
@@ -11,6 +11,8 @@ import java.util.ArrayList;
 /**
  * Created by Candice on 11/02/2017.
  */
+
+
 
 public class SliderFragmentPagerAdapter extends FragmentPagerAdapter {
 

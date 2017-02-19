@@ -1,4 +1,4 @@
-package com.artise.natrapharmutil;
+package app.rocketship.natrapharmutil;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -30,8 +30,8 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import com.artise.natrapharmutil.sqlite.SQLHelper;
-import com.artise.natrapharmutil.sqlite.SQLiteSingleton;
+import app.rocketship.natrapharmutil.sqlite.SQLHelper;
+import app.rocketship.natrapharmutil.sqlite.SQLiteSingleton;
 
 /**
  * Created by Candice on 13/02/2017.
@@ -194,7 +194,7 @@ public class DataHandler {
         RequestSingleton.getInstance(currentContext).addToRequestQueue(request);
     }
 
-    public static void registerUser(final Map<String, String> params) {
+    public static void registerUser(final Map<String, String> params, final Class<?> registerActivity, final Class<?> menuActivity) {
 
 
         StringRequest request = new StringRequest(
@@ -209,7 +209,7 @@ public class DataHandler {
                             JSONObject responseJson = new JSONObject(response);
                             if( responseJson.getInt("success") == 1 ){
                                 setUserData(params);
-                                ActivityHandler.afterSplashActivity(currentContext, RegisterActivity.class, MenuActivity.class);
+                                ActivityHandler.afterSplashActivity(currentContext, registerActivity, menuActivity);
 
                             }else{
                                 Alert.oops();

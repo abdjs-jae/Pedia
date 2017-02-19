@@ -1,9 +1,9 @@
-package com.artise.natrapharmutil;
+package app.rocketship.natrapharmutil;
 
+import android.app.Activity;
 import android.content.Context;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,13 +11,13 @@ import android.widget.EditText;
 import java.util.HashMap;
 import java.util.Map;
 
-import app.rocketship.pedia.pedia.R;
+
 
 /**
  * Created by Candice on 14/02/2017.
  */
 
-public abstract class RegisterActivityAbstract extends AppCompatActivity {
+public abstract class RegisterActivityAbstract extends Activity {
 
     private EditText emailField;
     private EditText nameField;
@@ -27,13 +27,14 @@ public abstract class RegisterActivityAbstract extends AppCompatActivity {
     private Button submitButton;
 
 
-
-    protected abstract int getContentView();
     protected abstract DataHandler.UserType getUserType();
+    protected abstract Class<?> getMenuActivity();
+    protected abstract Class<?> getRegisterActivity();
 
 
     protected void initializeActivity(){
         DataHandler.setCurrentContext(this);
+
 
         emailField = (EditText) findViewById(R.id.emailField);
         nameField = (EditText) findViewById(R.id.nameField);
@@ -47,7 +48,7 @@ public abstract class RegisterActivityAbstract extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(getContentView());
+        setContentView(R.layout.activity_register);
 
 
         initializeActivity();
@@ -73,7 +74,7 @@ public abstract class RegisterActivityAbstract extends AppCompatActivity {
                 );
 
 
-                DataHandler.registerUser(requestParams);
+                DataHandler.registerUser(requestParams, getRegisterActivity(), getMenuActivity());
             }
         });
     }

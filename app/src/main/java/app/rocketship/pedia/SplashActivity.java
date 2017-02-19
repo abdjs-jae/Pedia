@@ -1,4 +1,4 @@
-package app.rocketship.pedia.pedia;
+package app.rocketship.pedia;
 
 import android.app.Activity;
 import android.media.MediaPlayer;
@@ -8,8 +8,8 @@ import android.view.Window;
 import android.widget.Toast;
 import android.widget.VideoView;
 
-import app.natrapharmutil.users.ActivityHandler;
-import app.natrapharmutil.users.RegisterActivityAbstract;
+import app.rocketship.natrapharmutil.ActivityHandler;
+
 
 public class SplashActivity extends AppCompatActivity {
 

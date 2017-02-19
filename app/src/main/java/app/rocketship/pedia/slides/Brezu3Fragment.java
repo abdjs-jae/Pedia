@@ -7,8 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import app.rocketship.pedia.pedia.R;
-import app.rocketship.pedia.pedia.utils.GifView;
+import app.rocketship.pedia.R;
+import app.rocketship.pedia.utils.GifView;
 
 /**
  * A simple {@link Fragment} subclass.

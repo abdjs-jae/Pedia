@@ -8,9 +8,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
-import app.rocketship.pedia.pedia.BrezuVideoActivity;
-import app.rocketship.pedia.pedia.MenuActivity;
-import app.rocketship.pedia.pedia.R;
+import app.rocketship.pedia.MenuActivity;
 
 public class SliderActivity extends AppCompatActivity {
 
@@ -25,6 +23,7 @@ public class SliderActivity extends AppCompatActivity {
 
         sliderViewPager = (ViewPager) findViewById(R.id.sliderViewPager);
         tabLayout = (TabLayout) findViewById(R.id.sliderdotlayout);
+
 
         pagerAdapter = new SliderFragmentPagerAdapter(getSupportFragmentManager(), MenuActivity.selectedPage);
         sliderViewPager.setAdapter(pagerAdapter);

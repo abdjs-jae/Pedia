@@ -1,4 +1,4 @@
-package com.artise.natrapharmutil.sqlite;
+package app.rocketship.natrapharmutil.sqlite;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

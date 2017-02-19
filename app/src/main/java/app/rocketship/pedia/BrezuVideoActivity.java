@@ -1,15 +1,16 @@
-package app.rocketship.pedia.pedia;
+package app.rocketship.pedia;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
 import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
+
+
 
 public class BrezuVideoActivity extends AppCompatActivity {
 
