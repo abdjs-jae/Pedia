@@ -27,8 +27,8 @@ public class Brezu3Fragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_brezu3, container, false);
 
-        GifView gif1 = (GifView) v.findViewById(R.id.brezu_bar2);
-        gif1.setImageResource(R.drawable.bar2);
+//        GifView gif1 = (GifView) v.findViewById(R.id.brezu_bar2);
+//        gif1.setImageResource(R.drawable.bar2);
 
         return v;
     }

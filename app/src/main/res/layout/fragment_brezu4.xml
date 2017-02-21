@@ -6,126 +6,126 @@
     android:id="@+id/activity_brezu4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/slider_bg"
+    android:background="@drawable/brezu_4"
     tools:context="app.rocketship.pedia.slides.Brezu4Fragment">
 
-    <TextView
-        android:id="@+id/brezu4_title"
-        app:layout_widthPercent="90%"
-        app:layout_heightPercent="10%"
-        app:layout_marginTopPercent="4%"
-        android:gravity="center"
-        android:keepScreenOn="true"
-        android:text="@string/brezu4_title"
-        android:textColor="#2d2a20"
-        android:textSize="50sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+    <!--<TextView-->
+        <!--android:id="@+id/brezu4_title"-->
+        <!--app:layout_widthPercent="90%"-->
+        <!--app:layout_heightPercent="10%"-->
+        <!--app:layout_marginTopPercent="4%"-->
+        <!--android:gravity="center"-->
+        <!--android:keepScreenOn="true"-->
+        <!--android:text="@string/brezu4_title"-->
+        <!--android:textColor="#2d2a20"-->
+        <!--android:textSize="50sp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
 
-    <TextView
-        android:id="@+id/brezu4_text1"
-        app:layout_widthPercent="80%"
-        app:layout_heightPercent="12%"
-        app:layout_marginTopPercent="3%"
-        android:padding="10dp"
-        android:gravity="center"
-        android:keepScreenOn="true"
-        android:text="@string/brezu4_text1"
-        android:background="@drawable/brezu_round"
-        android:textSize="25sp"
-        android:layout_gravity="center"
-        android:layout_below="@+id/brezu4_title"
-        android:layout_centerHorizontal="true" />
+    <!--<TextView-->
+        <!--android:id="@+id/brezu4_text1"-->
+        <!--app:layout_widthPercent="80%"-->
+        <!--app:layout_heightPercent="12%"-->
+        <!--app:layout_marginTopPercent="3%"-->
+        <!--android:padding="10dp"-->
+        <!--android:gravity="center"-->
+        <!--android:keepScreenOn="true"-->
+        <!--android:text="@string/brezu4_text1"-->
+        <!--android:background="@drawable/brezu_round"-->
+        <!--android:textSize="25sp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_below="@+id/brezu4_title"-->
+        <!--android:layout_centerHorizontal="true" />-->
 
-    <android.support.percent.PercentRelativeLayout
-        android:id="@+id/brezu4_middlelayout"
-        app:layout_widthPercent="80%"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="start"
-        android:layout_below="@+id/brezu4_text1"
-        android:layout_alignStart="@+id/brezu4_text1"
-        android:layout_marginTop="11dp">
+    <!--<android.support.percent.PercentRelativeLayout-->
+        <!--android:id="@+id/brezu4_middlelayout"-->
+        <!--app:layout_widthPercent="80%"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:gravity="start"-->
+        <!--android:layout_below="@+id/brezu4_text1"-->
+        <!--android:layout_alignStart="@+id/brezu4_text1"-->
+        <!--android:layout_marginTop="11dp">-->
 
-        <android.support.percent.PercentRelativeLayout
-            android:id="@+id/brezu4_lglayout1"
-            app:layout_widthPercent="48%"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_marginEndPercent="2%"
-            android:gravity="start">
+        <!--<android.support.percent.PercentRelativeLayout-->
+            <!--android:id="@+id/brezu4_lglayout1"-->
+            <!--app:layout_widthPercent="48%"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--app:layout_marginEndPercent="2%"-->
+            <!--android:gravity="start">-->
 
-            <ImageView
-                android:id="@+id/brezu4_linegraph1"
-                android:layout_width="match_parent"
-                app:layout_heightPercent="52%"
-                android:background="@drawable/brezu_round"
-                android:padding="10dp"
-                android:src="@drawable/brezu_linegraph1"
-                tools:ignore="ContentDescription"
-                android:layout_below="@+id/brezu4_caption1"
-                android:layout_alignParentStart="true" />
+            <!--<ImageView-->
+                <!--android:id="@+id/brezu4_linegraph1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--app:layout_heightPercent="52%"-->
+                <!--android:background="@drawable/brezu_round"-->
+                <!--android:padding="10dp"-->
+                <!--android:src="@drawable/brezu_linegraph1"-->
+                <!--tools:ignore="ContentDescription"-->
+                <!--android:layout_below="@+id/brezu4_caption1"-->
+                <!--android:layout_alignParentStart="true" />-->
 
-            <TextView
-                android:id="@+id/brezu4_caption1"
-                app:layout_widthPercent="60%"
-                app:layout_heightPercent="10%"
-                android:background="#0e41c2"
-                android:gravity="center"
-                android:text="@string/brezu4_caption1"
-                android:textSize="30sp"
-                android:textColor="#ffffff"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentStart="true" />
+            <!--<TextView-->
+                <!--android:id="@+id/brezu4_caption1"-->
+                <!--app:layout_widthPercent="60%"-->
+                <!--app:layout_heightPercent="10%"-->
+                <!--android:background="#0e41c2"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/brezu4_caption1"-->
+                <!--android:textSize="30sp"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_alignParentStart="true" />-->
 
-        </android.support.percent.PercentRelativeLayout>
+        <!--</android.support.percent.PercentRelativeLayout>-->
 
-        <android.support.percent.PercentRelativeLayout
-            android:id="@+id/brezu4_lglayout2"
-            app:layout_widthPercent="50%"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="start"
-            app:layout_marginStartPercent="2%"
-            android:layout_toEndOf="@id/brezu4_lglayout1">
+        <!--<android.support.percent.PercentRelativeLayout-->
+            <!--android:id="@+id/brezu4_lglayout2"-->
+            <!--app:layout_widthPercent="50%"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:gravity="start"-->
+            <!--app:layout_marginStartPercent="2%"-->
+            <!--android:layout_toEndOf="@id/brezu4_lglayout1">-->
 
-            <TextView
-                android:id="@+id/brezu4_caption2"
-                app:layout_widthPercent="60%"
-                app:layout_heightPercent="10%"
-                android:background="#0e41c2"
-                android:gravity="center"
-                android:text="@string/brezu4_caption2"
-                android:textSize="30sp"
-                android:textColor="#ffffff" />
+            <!--<TextView-->
+                <!--android:id="@+id/brezu4_caption2"-->
+                <!--app:layout_widthPercent="60%"-->
+                <!--app:layout_heightPercent="10%"-->
+                <!--android:background="#0e41c2"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/brezu4_caption2"-->
+                <!--android:textSize="30sp"-->
+                <!--android:textColor="#ffffff" />-->
 
-            <ImageView
-                android:id="@+id/brezu4_linegraph2"
-                android:layout_width="match_parent"
-                app:layout_heightPercent="52%"
-                android:background="@drawable/brezu_round"
-                android:padding="10dp"
-                android:src="@drawable/brezu_linegraph2"
-                tools:ignore="ContentDescription"
-                android:layout_below="@+id/brezu4_caption2"
-                android:layout_centerHorizontal="true" />
+            <!--<ImageView-->
+                <!--android:id="@+id/brezu4_linegraph2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--app:layout_heightPercent="52%"-->
+                <!--android:background="@drawable/brezu_round"-->
+                <!--android:padding="10dp"-->
+                <!--android:src="@drawable/brezu_linegraph2"-->
+                <!--tools:ignore="ContentDescription"-->
+                <!--android:layout_below="@+id/brezu4_caption2"-->
+                <!--android:layout_centerHorizontal="true" />-->
 
-        </android.support.percent.PercentRelativeLayout>
+        <!--</android.support.percent.PercentRelativeLayout>-->
 
-    </android.support.percent.PercentRelativeLayout>
+    <!--</android.support.percent.PercentRelativeLayout>-->
 
-    <TextView
-        android:id="@+id/brezu4_text2"
-        app:layout_widthPercent="80%"
-        app:layout_heightPercent="12%"
-        app:layout_marginTopPercent="1%"
-        android:padding="10dp"
-        android:gravity="center"
-        android:keepScreenOn="true"
-        android:text="@string/brezu4_text2"
-        android:background="@drawable/brezu_round"
-        android:textSize="20sp"
-        android:layout_below="@+id/brezu4_middlelayout"
-        android:layout_centerHorizontal="true" />
+    <!--<TextView-->
+        <!--android:id="@+id/brezu4_text2"-->
+        <!--app:layout_widthPercent="80%"-->
+        <!--app:layout_heightPercent="12%"-->
+        <!--app:layout_marginTopPercent="1%"-->
+        <!--android:padding="10dp"-->
+        <!--android:gravity="center"-->
+        <!--android:keepScreenOn="true"-->
+        <!--android:text="@string/brezu4_text2"-->
+        <!--android:background="@drawable/brezu_round"-->
+        <!--android:textSize="20sp"-->
+        <!--android:layout_below="@+id/brezu4_middlelayout"-->
+        <!--android:layout_centerHorizontal="true" />-->
 
 </android.support.percent.PercentRelativeLayout>
