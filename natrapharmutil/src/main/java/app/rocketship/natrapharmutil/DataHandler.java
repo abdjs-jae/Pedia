@@ -1,5 +1,6 @@
 package app.rocketship.natrapharmutil;
 
+import android.app.AlertDialog;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -9,20 +10,15 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.wifi.WifiManager;
-import android.support.v7.app.AlertDialog;
 import android.util.Log;
 
-
-import com.android.volley.AuthFailureError;
 import com.android.volley.NoConnectionError;
 import com.android.volley.Request;
 import com.android.volley.Response;
+import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
 
-import org.apache.commons.io.IOUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -34,14 +30,15 @@ import java.util.Map;
 import app.rocketship.natrapharmutil.sqlite.SQLHelper;
 import app.rocketship.natrapharmutil.sqlite.SQLiteSingleton;
 
+
 /**
  * Created by Candice on 13/02/2017.
  */
 
 public class DataHandler {
 
-    private final static int CONNECTION_TIMEOUT = 5000;
-    private final static int READ_TIMEOUT = 5000;
+    private final static int CONNECTION_TIMEOUT = 10000;
+    private final static int READ_TIMEOUT = 10000;
 
     private final static String PREFERENCE_FILE_KEY = "user_data_file";
 
@@ -180,6 +177,9 @@ public class DataHandler {
                         if(error instanceof NoConnectionError){
                             Log.d("Test", "No connection");
                             Alert.connectionNeededDevice();
+                        }else if(error instanceof TimeoutError) {
+                            Log.d("Test", "Timeout Error");
+                            Alert.connectionTimeout();
                         }else{
                             Log.d("Test", "errrooorrrr");
                             error.printStackTrace();
@@ -375,6 +375,7 @@ public class DataHandler {
     private static class Alert{
 
         private static void oops(){
+
             new AlertDialog.Builder(currentContext)
                     .setTitle("Oops! Something went wrong")
                     .setMessage("There seems to be some trouble. Please try again in a few minutes :(")
@@ -385,6 +386,25 @@ public class DataHandler {
             new AlertDialog.Builder(currentContext)
                     .setTitle("Connection Needed!")
                     .setMessage("A connection is needed once after installing the application. Please make sure you're connected to wifi or data to proceed.")
+                    .setPositiveButton("Try Again", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            ActivityHandler.refreshActivity(currentContext);
+                        }
+                    })
+                    .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            ActivityHandler.goHome(currentContext);
+                        }
+                    })
+                    .show();
+        }
+
+        private static void connectionTimeout(){
+            new AlertDialog.Builder(currentContext)
+                    .setTitle("Connection Timeout")
+                    .setMessage("A connection is needed once after installing the application. Please make sure you do not have slow/unreliable internet connection.")
                     .setPositiveButton("Try Again", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {

@@ -30,4 +30,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(':volley-master')
     compile 'org.apache.directory.studio:org.apache.commons.io:2.4'
+    compile 'junit:junit:4.12'
 }
