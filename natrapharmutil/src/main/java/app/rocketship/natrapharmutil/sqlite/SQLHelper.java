@@ -42,8 +42,10 @@ public class SQLHelper extends SQLiteOpenHelper {
         }
     }
 
-
-
+    /*
+    private static final String SQL_SELECT_CURRENTUSER =
+            "SELECT FROM " +
+    */
     private static final String SQL_CREATE_ENTRIES =
             "CREATE TABLE " + Tables.CLICKS.getTableName() + " (" +
                     BaseColumns._ID + " INTEGER PRIMARY KEY," +

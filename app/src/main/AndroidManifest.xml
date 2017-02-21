@@ -4,8 +4,8 @@
 
     <!-- Internet permission -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
@@ -17,13 +17,11 @@
         <activity
             android:name=".SplashActivity"
             android:screenOrientation="sensorLandscape">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MenuActivity"
@@ -50,12 +48,12 @@
             android:name=".utils.SliderActivity"
             android:label="@string/title_activity_slider"
             android:screenOrientation="sensorLandscape" />
-
         <activity
             android:name=".RegisterActivity"
+            android:screenOrientation="sensorLandscape"></activity>
+        <activity
+            android:name=".ProfileActivity"
             android:screenOrientation="sensorLandscape">
-
-
         </activity>
     </application>
 

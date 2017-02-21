@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:text="Register"
+        android:text="@string/et_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
@@ -31,7 +31,7 @@
             android:orientation="horizontal" >
 
             <TextView
-                android:text="Email"
+                android:text="@string/et_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
@@ -42,7 +42,7 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName"
+                android:inputType="textEmailAddress"
                 android:ems="10"
                 android:id="@+id/emailField"
                 android:layout_weight="1"
@@ -54,7 +54,7 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
             <TextView
-                android:text="Name"
+                android:text="@string/et_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView4"
@@ -78,7 +78,7 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
             <TextView
-                android:text="Contact"
+                android:text="@string/et_contact"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView5"
@@ -102,7 +102,7 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
             <TextView
-                android:text="Department"
+                android:text="@string/et_department"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView6"

@@ -9,6 +9,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
 import app.rocketship.pedia.MenuActivity;
+import app.rocketship.pedia.R;
 
 public class SliderActivity extends AppCompatActivity {
 

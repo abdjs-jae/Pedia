@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.TextView;
 
 import app.rocketship.natrapharmutil.DataHandler;
@@ -24,6 +25,8 @@ public class MenuActivity extends AppCompatActivity {
     TextView tvNatravox;
     TextView tvCorpVideo;
 
+    Button buttonProfile;
+
     public static PageSlidesHandler.Page selectedPage;
 
     @Override
@@ -35,7 +38,7 @@ public class MenuActivity extends AppCompatActivity {
 
         DataHandler.setNetworkConnection();
 
-        // TO-DO: Add activities first or focus on the sliders
+        buttonProfile = (Button) findViewById(R.id.button_profile);
 
         // Load the textviews
         tvBrezuVideo = (TextView) findViewById(R.id.tv_brezu_video);
@@ -137,8 +140,18 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
-    }
+        buttonProfile.setOnClickListener(new View.OnClickListener(){
 
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getBaseContext(), ProfileActivity.class);
+
+                startActivity(i);
+                finish();
+                overridePendingTransition(0, R.anim.fade_in);
+            }
+        });
+    }
 
     private void goToSliderActivity(PageSlidesHandler.Page page){
 

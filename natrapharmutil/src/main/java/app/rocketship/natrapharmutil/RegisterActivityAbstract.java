@@ -26,19 +26,16 @@ public abstract class RegisterActivityAbstract extends Activity {
 
     private Button submitButton;
 
-
     protected abstract DataHandler.UserType getUserType();
     protected abstract Class<?> getMenuActivity();
     protected abstract Class<?> getRegisterActivity();
 
-
     protected void initializeActivity(){
         DataHandler.setCurrentContext(this);
 
-
         emailField = (EditText) findViewById(R.id.emailField);
         nameField = (EditText) findViewById(R.id.nameField);
-        contactField = (EditText) findViewById(R.id.emailField);
+        contactField = (EditText) findViewById(R.id.contactField);
         departmentField = (EditText) findViewById(R.id.departmentField);
 
         submitButton = (Button) findViewById(R.id.submitButton);
@@ -65,14 +62,12 @@ public abstract class RegisterActivityAbstract extends Activity {
                 requestParams.put(DataHandler.UserFields.DEPARTMENT.getKey(), departmentField.getText().toString());
                 requestParams.put(DataHandler.UserFields.USER_TYPE.getKey(), getUserType().toString());
 
-
                 requestParams.put(
                         DataHandler.UserFields.DEVICE_FINGERPRINT.getKey(),
                         ((WifiManager) getSystemService(Context.WIFI_SERVICE))
                                 .getConnectionInfo()
                                 .getMacAddress()
                 );
-
 
                 DataHandler.registerUser(requestParams, getRegisterActivity(), getMenuActivity());
             }
