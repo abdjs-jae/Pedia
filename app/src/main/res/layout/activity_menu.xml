@@ -148,14 +148,14 @@
 
     </android.support.percent.PercentRelativeLayout>
 
-    <Button
+    <ImageButton
         android:id="@+id/button_profile"
-        app:layout_widthPercent="20%"
+        app:layout_widthPercent="7%"
         app:layout_heightPercent="10%"
-        android:layout_alignParentLeft="true"
-        app:layout_marginLeftPercent="2%"
+        android:layout_alignParentRight="true"
+        app:layout_marginLeftPercent="90%"
         app:layout_marginTopPercent="5%"
-        android:text="Profile"
+        android:src="@drawable/ic_action_profile"
         tools:ignore="RtlHardcoded" />
 
 </android.support.percent.PercentFrameLayout>

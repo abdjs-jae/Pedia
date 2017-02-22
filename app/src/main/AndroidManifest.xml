@@ -50,11 +50,13 @@
             android:screenOrientation="sensorLandscape" />
         <activity
             android:name=".RegisterActivity"
-            android:screenOrientation="sensorLandscape"></activity>
+            android:screenOrientation="sensorLandscape" />
         <activity
             android:name=".ProfileActivity"
-            android:screenOrientation="sensorLandscape">
-        </activity>
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".utils.LandingActivity"
+            android:screenOrientation="sensorLandscape" />
     </application>
 
 </manifest>

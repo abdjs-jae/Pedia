@@ -41,6 +41,8 @@
             android:id="@+id/sliderdotlayout"
             android:layout_centerVertical="true">
 
+
+
         </android.support.design.widget.TabLayout>
 
 

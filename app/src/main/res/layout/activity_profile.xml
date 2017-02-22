@@ -33,7 +33,7 @@
                         android:id="@+id/profile_layout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#eb8c8a8a"
+                        android:background="#eb5ec6ec"
                         android:paddingBottom="24dp">
 
                         <ImageButton
