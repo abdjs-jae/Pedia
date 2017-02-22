@@ -5,10 +5,15 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
+import android.widget.ImageButton;
 
 public class LandingActivity extends AppCompatActivity {
 
     public static Class<?> menuClass;
+
+    Button buttonMenu;
+    ImageButton buttonProfile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +22,9 @@ public class LandingActivity extends AppCompatActivity {
 
         menuClass = ActivityHandler.getMenuClass();
 
-        goToMenu(getBaseContext());
+        // this is from activity_profile.xml
+        buttonMenu = (Button) findViewById(R.id.button_back);
+
     }
 
     private static void goToMenu(Context contextFrom){
