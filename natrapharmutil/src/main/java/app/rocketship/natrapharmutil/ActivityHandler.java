@@ -40,7 +40,9 @@ public class ActivityHandler {
         DataHandler.setCurrentContext(splashActivity);
 
         if(DataHandler.hasUserData())
+            /* EDIT HERE AS WELL */
             changeActivity(splashActivity, menuClass);
+            /*****/
         else
             DataHandler.isDeviceRegistered(
                     new DataHandler.VolleyCallback() {
@@ -48,7 +50,20 @@ public class ActivityHandler {
                         public void doAction(String result) {
                             Log.d("Test", "device exists: " + result);
                             DataHandler.setUserData(result);
+
+                            /* EDIT HERE */
+
                             changeActivity(splashActivity, menuClass);
+
+                            /* So instead of changing the activity directly to 'menuClass',
+                            I want you to change it to LandingActivity.
+                            Put a public static Class<?> menuClass in LandingActivity and set it to this method's 'menuClass'
+
+
+                            Whenever the menu button is clicked from LandingActivity, call ActivityHandler.changeActivity(landingActivity, menuClass) 
+
+                            */
+
                         }
                     },
                     new DataHandler.VolleyCallback() {
