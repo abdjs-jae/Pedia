@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import app.rocketship.pedia.utils.LandingActivity;
 /**
  * Created by Candice on 14/02/2017.
  */
@@ -24,7 +23,7 @@ public class ActivityHandler {
     }
 
     public static void goToLanding(Context currentContext){
-        Intent i = new Intent(currentContext, );
+        Intent i = new Intent(currentContext, LandingActivity.class);
         currentContext.startActivity(i);
 
         ((Activity) currentContext).finish();

@@ -530,10 +530,12 @@
             No DIDP (Diisodecyl Phthalate) content.
         </string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Other stuff -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_slider">Slider</string>
     <string name="profile_user_name">User Name</string>
     <string name="profile_department_name">Department Name</string>
+
+    <string name="menu_prompt">Choose a page</string>
 
 </resources>

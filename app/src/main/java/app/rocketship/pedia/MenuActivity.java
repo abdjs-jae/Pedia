@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import app.rocketship.natrapharmutil.DataHandler;
+import app.rocketship.natrapharmutil.ProfileActivity;
 import app.rocketship.natrapharmutil.sqlite.SQLiteSingleton;
 import app.rocketship.pedia.utils.PageSlidesHandler;
 import app.rocketship.pedia.utils.SliderActivity;

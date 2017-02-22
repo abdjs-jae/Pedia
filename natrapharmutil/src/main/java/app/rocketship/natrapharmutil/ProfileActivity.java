@@ -1,6 +1,5 @@
-package app.rocketship.pedia;
+package app.rocketship.natrapharmutil;
 
-import android.content.Intent;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,7 +11,6 @@ import java.util.ArrayList;
 
 import app.rocketship.natrapharmutil.ActivityHandler;
 import app.rocketship.natrapharmutil.DataHandler;
-import app.rocketship.pedia.utils.LandingActivity;
 
 public class ProfileActivity extends AppCompatActivity {
 
@@ -55,6 +53,7 @@ public class ProfileActivity extends AppCompatActivity {
         // Set Collapsing Toolbar layout to the screen
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+
         // Set title of Detail page
         collapsingToolbar.setTitle("Profile");
 

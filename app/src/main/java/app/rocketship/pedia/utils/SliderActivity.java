@@ -7,6 +7,7 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Spinner;
 
 import app.rocketship.pedia.MenuActivity;
 import app.rocketship.pedia.R;
@@ -15,6 +16,7 @@ public class SliderActivity extends AppCompatActivity {
 
     private PagerAdapter pagerAdapter;
     private ViewPager sliderViewPager;
+    private Spinner spinnerMenu;
     private TabLayout tabLayout;
 
     @Override
@@ -24,6 +26,8 @@ public class SliderActivity extends AppCompatActivity {
 
         sliderViewPager = (ViewPager) findViewById(R.id.sliderViewPager);
         tabLayout = (TabLayout) findViewById(R.id.sliderdotlayout);
+        spinnerMenu = (Spinner) findViewById(R.id.menu_spinner);
+
 
 
         pagerAdapter = new SliderFragmentPagerAdapter(getSupportFragmentManager(), MenuActivity.selectedPage);

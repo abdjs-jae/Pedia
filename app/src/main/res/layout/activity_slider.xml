@@ -23,15 +23,6 @@
         android:background="#66ffffff"
         android:layout_gravity="bottom">
 
-        <ImageView
-            android:id="@+id/natrapharm_logo"
-            app:layout_widthPercent="7%"
-            app:layout_heightPercent="7%"
-            android:src="@drawable/logo"
-            tools:ignore="ContentDescription"
-            app:layout_marginLeftPercent="1%"
-            app:layout_marginBottomPercent="2%"/>
-
         <android.support.design.widget.TabLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,12 +30,36 @@
             app:tabGravity="center"
             app:tabIndicatorHeight="0dp"
             android:id="@+id/sliderdotlayout"
-            android:layout_centerVertical="true">
-
-
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
 
         </android.support.design.widget.TabLayout>
 
+        <ImageView
+            android:id="@+id/natrapharm_logo"
+            android:gravity="center_vertical"
+            app:layout_widthPercent="7%"
+            app:layout_heightPercent="7%"
+            android:src="@drawable/logo"
+            tools:ignore="ContentDescription"
+            app:layout_marginLeftPercent="3%"
+            app:layout_marginBottomPercent="2%"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:id="@+id/menu_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:prompt="@string/menu_prompt"
+            app:layout_marginRightPercent="3%"
+            android:layout_marginRight="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
 
     </android.support.percent.PercentRelativeLayout>
 
