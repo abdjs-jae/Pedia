@@ -69,10 +69,7 @@ public class ActivityHandler {
                             Log.d("Test", "device exists: " + result);
                             DataHandler.setUserData(result);
 
-                            /* EDIT HERE */
-
                             setMenuClass(localMenuClass);
-
                             changeActivity(splashActivity, menuClass);
 
                             /* So instead of changing the activity directly to 'menuClass',
