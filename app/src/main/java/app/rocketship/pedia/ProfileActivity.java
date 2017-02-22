@@ -10,7 +10,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import app.rocketship.natrapharmutil.ActivityHandler;
 import app.rocketship.natrapharmutil.DataHandler;
+import app.rocketship.pedia.utils.LandingActivity;
 
 public class ProfileActivity extends AppCompatActivity {
 
@@ -80,12 +82,7 @@ public class ProfileActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent i = new Intent();
-
-                i.setClass(getBaseContext(), MenuActivity.class);
-                startActivity(i);
-                finish();
-                overridePendingTransition(0, R.anim.fade_in);
+                ActivityHandler.goToLanding(getBaseContext());
             }
         });
     }
