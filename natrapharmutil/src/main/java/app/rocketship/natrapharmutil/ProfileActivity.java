@@ -9,9 +9,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import app.rocketship.natrapharmutil.ActivityHandler;
-import app.rocketship.natrapharmutil.DataHandler;
-
 public class ProfileActivity extends AppCompatActivity {
 
     TextView tvUsername;
@@ -81,8 +78,9 @@ public class ProfileActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                ActivityHandler.goToLanding(getBaseContext());
+                ActivityHandler.goToLanding(ProfileActivity.this);
             }
+
         });
     }
 }

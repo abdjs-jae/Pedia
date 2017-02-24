@@ -58,7 +58,7 @@ public class ActivityHandler {
         if(DataHandler.hasUserData()) {
 
             setMenuClass(localMenuClass);
-            changeActivity(splashActivity, menuClass);
+            changeActivity(splashActivity, LandingActivity.class);
 
         }
         else
@@ -70,7 +70,7 @@ public class ActivityHandler {
                             DataHandler.setUserData(result);
 
                             setMenuClass(localMenuClass);
-                            changeActivity(splashActivity, menuClass);
+                            changeActivity(splashActivity, LandingActivity.class);
 
                             /* So instead of changing the activity directly to 'menuClass',
                             I want you to change it to LandingActivity.

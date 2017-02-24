@@ -8,6 +8,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
+import app.rocketship.natrapharmutil.ActivityHandler;
 import app.rocketship.natrapharmutil.DataHandler;
 import app.rocketship.natrapharmutil.ProfileActivity;
 import app.rocketship.natrapharmutil.sqlite.SQLiteSingleton;
@@ -33,7 +34,6 @@ public class MenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_menu);
-
 
         DataHandler.setNetworkConnection();
 
@@ -79,8 +79,6 @@ public class MenuActivity extends AppCompatActivity {
             }
 
         });
-
-
 
         tvBrezu.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -138,12 +136,16 @@ public class MenuActivity extends AppCompatActivity {
         });
     }
 
+    public void switchSlider(PageSlidesHandler.Page page){
+        goToSliderActivity(page);
+    }
+
     private void goToSliderActivity(PageSlidesHandler.Page page){
 
         DataHandler.setCurrentContext(this);
         DataHandler.savePageClick(page.getKey());
 
-//        DataHandler.printClicks();
+        // DataHandler.printClicks();
 
         selectedPage = page;
 
@@ -155,8 +157,12 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onDestroy(){
+    public void onBackPressed() {
+        ActivityHandler.goToLanding(MenuActivity.this);
+    }
 
+    @Override
+    protected void onDestroy(){
 
         SQLiteSingleton.getInstance(this).close();
 

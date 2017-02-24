@@ -36,16 +36,24 @@
                         android:background="#eb5ec6ec"
                         android:paddingBottom="24dp">
 
-                        <ImageButton
-                            android:id="@+id/button_back"
-                            app:layout_widthPercent="6%"
-                            app:layout_heightPercent="2%"
-                            android:layout_alignParentLeft="true"
+                        <RelativeLayout
+                            android:id="@+id/rl_upperRight"
+                            android:layout_width="match_parent"
+                            app:layout_heightPercent="15%"
+                            app:layout_marginTopPercent="30%"
                             app:layout_marginLeftPercent="2%"
-                            app:layout_marginTopPercent="5%"
-                            android:background="#00ffffff"
-                            android:src="@drawable/ic_action_back"
-                            tools:ignore="ContentDescription,RtlHardcoded" />
+                            app:layout_marginRightPercent="2%"
+                            app:layout_marginBottomPercent="30%">
+
+                            <ImageButton
+                                android:id="@+id/button_back"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:background="#00ffffff"
+                                android:src="@drawable/ic_action_back"
+                                tools:ignore="ContentDescription,RtlHardcoded" />
+
+                        </RelativeLayout>
 
                         <TextView
                             android:id="@+id/tv_profile_name"

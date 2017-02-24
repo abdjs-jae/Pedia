@@ -5,7 +5,9 @@ package app.rocketship.pedia.utils;
 import android.support.v4.app.Fragment;
 
 import java.util.ArrayList;
+import java.util.StringTokenizer;
 
+import app.rocketship.pedia.R;
 import app.rocketship.pedia.slides.Brezu1Fragment;
 import app.rocketship.pedia.slides.Brezu2Fragment;
 import app.rocketship.pedia.slides.Brezu3Fragment;
@@ -50,23 +52,28 @@ import app.rocketship.pedia.slides.Natravox9Fragment;
 
 public class PageSlidesHandler {
     public enum Page{
-        BREZU("brezu"),
-        BREZU_VIDEO("brezu_video"),
-        CLARITHROMYCIN("clarithromycin"),
-        DIBENCOZIDE_HERACLENE("dibencozide_heraclene"),
-        DIBENCOZIDE_HERACLENE_1MG("dibencozide_heraclene_1mg"),
-        KIDZ_KIT("kidz_kit"),
-        MONTEMAX("montemax"),
-        NATRAVOX("natravox"),
-        CORPORATE_VIDEO("video_pedia");
+        BREZU("brezu", R.string.brezu),
+        BREZU_VIDEO("brezu_video", R.string.brezu_video),
+        CLARITHROMYCIN("clarithromycin", R.string.clarithromycin),
+        DIBENCOZIDE_HERACLENE("dibencozide_heraclene", R.string.dibher),
+        DIBENCOZIDE_HERACLENE_1MG("dibencozide_heraclene_1mg", R.string.dibher1mg),
+        KIDZ_KIT("kidz_kit", R.string.kidzkit),
+        MONTEMAX("montemax", R.string.montemax),
+        NATRAVOX("natravox", R.string.natravox),
+        CORPORATE_VIDEO("video_pedia", R.string.corpvideo);
 
         private String key;
-        Page(String key){
+        private int labelId;
+        Page(String key, int labelId){
             this.key = key;
+            this.labelId = labelId;
         }
 
         public String getKey(){
             return key;
+        }
+        public int getLabelId() {
+            return labelId;
         }
     }
 

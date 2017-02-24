@@ -54,6 +54,9 @@
         <activity
             android:name="app.rocketship.natrapharmutil.ProfileActivity"
             android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="app.rocketship.natrapharmutil.LandingActivity"
+            android:screenOrientation="sensorLandscape" />
     </application>
 
 </manifest>

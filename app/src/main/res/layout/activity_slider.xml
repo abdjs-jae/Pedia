@@ -53,6 +53,7 @@
             android:id="@+id/menu_spinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#C0C0C0"
             android:prompt="@string/menu_prompt"
             app:layout_marginRightPercent="3%"
             android:layout_marginRight="18dp"
