@@ -4,7 +4,7 @@ import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -18,7 +18,7 @@ public class ProfileActivity extends AppCompatActivity {
     TextView tvContact;
     TextView tvUserContact;
 
-    ImageButton buttonBack;
+    ImageView buttonBack;
 
     ArrayList<String> listUserData = new ArrayList<>();
 
@@ -63,7 +63,7 @@ public class ProfileActivity extends AppCompatActivity {
         // PERMANENT TEXTVIEWS
         tvEmail = (TextView) findViewById(R.id.tv_email);
         tvContact = (TextView) findViewById(R.id.tv_contact);
-        buttonBack = (ImageButton) findViewById(R.id.button_back);
+        buttonBack = (ImageView) findViewById(R.id.iv_back);
 
         listUserData = DataHandler.getUserData();
 

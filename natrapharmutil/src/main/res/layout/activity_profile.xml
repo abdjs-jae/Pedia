@@ -36,24 +36,22 @@
                         android:background="#eb5ec6ec"
                         android:paddingBottom="24dp">
 
-                        <RelativeLayout
+                        <android.support.percent.PercentRelativeLayout
                             android:id="@+id/rl_upperRight"
                             android:layout_width="match_parent"
-                            app:layout_heightPercent="15%"
+                            app:layout_heightPercent="25%"
                             app:layout_marginTopPercent="30%"
                             app:layout_marginLeftPercent="2%"
-                            app:layout_marginRightPercent="2%"
-                            app:layout_marginBottomPercent="30%">
+                            android:paddingTop="15dp">
 
-                            <ImageButton
-                                android:id="@+id/button_back"
+                            <ImageView
+                                android:id="@+id/iv_back"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:background="#00ffffff"
                                 android:src="@drawable/ic_action_back"
-                                tools:ignore="ContentDescription,RtlHardcoded" />
+                                tools:ignore="ContentDescription" />
 
-                        </RelativeLayout>
+                        </android.support.percent.PercentRelativeLayout>
 
                         <TextView
                             android:id="@+id/tv_profile_name"
