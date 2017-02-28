@@ -1,11 +1,13 @@
 package app.rocketship.pedia;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import app.rocketship.natrapharmutil.ActivityHandler;
@@ -27,6 +29,8 @@ public class MenuActivity extends AppCompatActivity {
     TextView tvNatravox;
     TextView tvCorpVideo;
 
+    ImageView ivBack;
+
     public static PageSlidesHandler.Page selectedPage;
 
     @Override
@@ -47,6 +51,18 @@ public class MenuActivity extends AppCompatActivity {
         tvKidzkit = (TextView) findViewById(R.id.tv_kidzkit);
         tvMontemax = (TextView) findViewById(R.id.tv_montemax);
         tvNatravox = (TextView) findViewById(R.id.tv_natravox);
+
+        ivBack = (ImageView) findViewById(R.id.iv_back);
+        ivBack.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                ActivityHandler.goToLanding(MenuActivity.this);
+
+            }
+
+        });
 
         // Load the listeners
         tvBrezuVideo.setOnClickListener(new View.OnClickListener() {
