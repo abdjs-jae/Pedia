@@ -34,127 +34,207 @@
             android:keepScreenOn="true"
             android:text="@string/pedia_division"
             android:background="@drawable/round"
-            android:textColor="#33b5e5"
+            android:textColor="#45494b"
             android:textSize="40sp"
             android:textStyle="bold"
             android:paddingRight="0dp" />
 
-        <LinearLayout
-            app:layout_widthPercent="70%"
-            app:layout_heightPercent="80%"
+        <ListView
+            app:layout_widthPercent="40%"
+            android:layout_height="wrap_content"
+            android:id="@+id/mainListView"
             android:layout_below="@id/pedia"
-            android:orientation="vertical">
+            android:divider="#FFFFFF"
+            android:dividerHeight="2dp" />
 
-            <TextView
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="30dp"
-                android:id="@+id/tv_brezu"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="@string/brezu"
-                android:textSize="20sp"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="30dp" />
+        <!--
+            <android.support.percent.PercentRelativeLayout
+                app:layout_widthPercent="70%"
+                app:layout_heightPercent="80%"
+                android:layout_below="@id/pedia"
+                android:isScrollContainer="true">
 
-            <TextView
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="30dp"
-                android:id="@+id/tv_brezu_video"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:text="@string/brezu_video"
-                android:textSize="20sp"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="30dp" />
+                <TextView
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="4%"
+                    android:id="@+id/tv_brezu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/brezu"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff" />
 
-            <TextView
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="30dp"
-                android:id="@+id/tv_clarithromycin"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:text="@string/clarithromycin"
-                android:textSize="20sp"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="30dp" />
+                <View
+                    android:id="@+id/view_brezu_divider"
+                    app:layout_widthPercent="50%"
+                    android:layout_height="2dp"
+                    android:background="#ffffff"
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="3%"
+                    android:layout_below="@id/tv_brezu"/>
 
-            <TextView
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="30dp"
-                android:id="@+id/tv_dibher"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:text="@string/dibher"
-                android:textSize="20sp"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="30dp" />
+                <TextView
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="4%"
+                    android:id="@+id/tv_brezu_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/brezu_video"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/view_brezu_divider"/>
 
-            <TextView
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="30dp"
-                android:id="@+id/tv_dibher1mg"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:text="@string/dibher1mg"
-                android:textSize="20sp"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="30dp" />
+                <View
+                    android:id="@+id/view_brezu_video_divider"
+                    app:layout_widthPercent="50%"
+                    android:layout_height="2dp"
+                    android:background="#ffffff"
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="3%"
+                    android:layout_below="@id/tv_brezu_video"/>
 
-            <TextView
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="30dp"
-                android:id="@+id/tv_kidzkit"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:text="@string/kidzkit"
-                android:textSize="20sp"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="30dp" />
+                <TextView
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="4%"
+                    android:id="@+id/tv_clarithromycin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/clarithromycin"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/view_brezu_video_divider"/>
 
-            <TextView
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="30dp"
-                android:id="@+id/tv_montemax"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:text="@string/montemax"
-                android:textSize="20sp"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="30dp" />
+                <View
+                    android:id="@+id/view_clarithromycin_divider"
+                    app:layout_widthPercent="50%"
+                    android:layout_height="2dp"
+                    android:background="#ffffff"
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="3%"
+                    android:layout_below="@id/tv_clarithromycin"/>
 
-            <TextView
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="30dp"
-                android:id="@+id/tv_natravox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:text="@string/natravox"
-                android:textSize="20sp"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="30dp" />
+                <TextView
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="4%"
+                    android:id="@+id/tv_dibher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/dibher"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/view_clarithromycin_divider" />
 
-            <TextView
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="30dp"
-                android:id="@+id/tv_corp_video"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:text="@string/corpvideo"
-                android:textSize="20sp"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="30dp" />
+                <View
+                    android:id="@+id/view_dibher_divider"
+                    app:layout_widthPercent="50%"
+                    android:layout_height="2dp"
+                    android:background="#ffffff"
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="3%"
+                    android:layout_below="@id/tv_dibher"/>
 
-        </LinearLayout>
+                <TextView
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="4%"
+                    android:id="@+id/tv_dibher1mg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/dibher1mg"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/view_dibher_divider" />
 
+                <View
+                    android:id="@+id/view_dibher1mg_divider"
+                    app:layout_widthPercent="50%"
+                    android:layout_height="2dp"
+                    android:background="#ffffff"
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="3%"
+                    android:layout_below="@id/tv_dibher1mg"/>
+
+                <TextView
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="4%"
+                    android:id="@+id/tv_kidzkit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/kidzkit"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/view_dibher1mg_divider"/>
+
+                <View
+                    android:id="@+id/view_kidzkit_divider"
+                    app:layout_widthPercent="50%"
+                    android:layout_height="2dp"
+                    android:background="#ffffff"
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="3%"
+                    android:layout_below="@id/tv_kidzkit"/>
+
+                <TextView
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="4%"
+                    android:id="@+id/tv_montemax"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/montemax"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/view_kidzkit_divider"/>
+
+                <View
+                    android:id="@+id/view_montemax_divider"
+                    app:layout_widthPercent="50%"
+                    android:layout_height="2dp"
+                    android:background="#ffffff"
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="3%"
+                    android:layout_below="@id/tv_montemax"/>
+
+                <TextView
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="4%"
+                    android:id="@+id/tv_natravox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/natravox"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/view_montemax_divider" />
+
+                <View
+                    android:id="@+id/view_natravox_divider"
+                    app:layout_widthPercent="50%"
+                    android:layout_height="2dp"
+                    android:background="#ffffff"
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="3%"
+                    android:layout_below="@id/tv_natravox"/>
+
+                <TextView
+                    app:layout_marginTopPercent="2%"
+                    app:layout_marginLeftPercent="4%"
+                    android:id="@+id/tv_corp_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/corpvideo"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/view_natravox_divider" />
+
+            </android.support.percent.PercentRelativeLayout>
+    -->
     </android.support.percent.PercentRelativeLayout>
 
 </android.support.percent.PercentFrameLayout>

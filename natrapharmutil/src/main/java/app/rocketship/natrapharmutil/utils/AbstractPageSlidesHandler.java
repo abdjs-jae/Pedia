@@ -10,6 +10,6 @@ import java.util.ArrayList;
 
 public abstract class AbstractPageSlidesHandler {
 
-    public abstract static ArrayList<Fragment> getPageSlidesFragment(PageSlidesHandler.Page page);
+    // public abstract ArrayList<Fragment> getPageSlidesFragment(PageSlidesHandler.Page page);
 
 }
