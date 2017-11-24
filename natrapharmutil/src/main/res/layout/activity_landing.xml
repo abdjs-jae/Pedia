@@ -35,7 +35,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:text="Natrapharm"
-            android:textSize="35sp"
+            android:textSize="100sp"
             android:textStyle="bold"
             android:textColor="#292929"
             android:layout_alignParentTop="true"
@@ -79,7 +79,7 @@
                 android:textColor="#ffffff"
                 android:text="@string/home"
                 android:textStyle="bold"
-                android:textSize="15sp"
+                android:textSize="40sp"
                 android:layout_below="@id/iv_menu" />
 
         </android.support.percent.PercentRelativeLayout>
@@ -120,7 +120,7 @@
                 android:textColor="#ffffff"
                 android:text="@string/profile"
                 android:textStyle="bold"
-                android:textSize="15sp"
+                android:textSize="40sp"
                 android:layout_below="@id/iv_profile" />
 
         </android.support.percent.PercentRelativeLayout>
@@ -142,7 +142,7 @@
             android:text="@string/quality"
             android:textColor="#ffffff"
             android:textStyle="bold"
-            android:textSize="20sp"/>
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/tv_sincere"
@@ -153,7 +153,7 @@
             android:text="@string/sincere"
             android:textColor="#ff0000"
             android:textStyle="bold"
-            android:textSize="20sp"/>
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/tv_reliable"
@@ -163,7 +163,7 @@
             android:text="@string/reliable"
             android:textColor="#ffffff"
             android:textStyle="bold"
-            android:textSize="20sp"/>
+            android:textSize="30sp"/>
 
     </android.support.percent.PercentRelativeLayout>
 

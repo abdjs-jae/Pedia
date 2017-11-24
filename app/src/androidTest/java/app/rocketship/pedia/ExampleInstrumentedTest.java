@@ -1,4 +1,4 @@
-package app.rocketship.pedia.pedia;
+package app.rocketship.pedia;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

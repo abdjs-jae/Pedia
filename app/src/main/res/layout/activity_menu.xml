@@ -35,7 +35,7 @@
             android:text="@string/pedia_division"
             android:background="@drawable/round"
             android:textColor="#45494b"
-            android:textSize="40sp"
+            android:textSize="70sp"
             android:textStyle="bold"
             android:paddingRight="0dp" />
 
